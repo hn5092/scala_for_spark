@@ -30,7 +30,8 @@ object implicitOps extends App {
   println(new File("E:\\t.txt").readAll)
   Conversion.go("dasdas1")
   Conversion.go //饮食参数可以这样写
-  //   Conversion.go1
+  //   Conversion.go
+  //只能有一个参数
   implicit class MoreFile(st: String) {
     def add {
       println("add " + st)
