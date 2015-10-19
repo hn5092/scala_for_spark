@@ -39,6 +39,8 @@ object implicitOps extends App {
   import Conversion._
   println("new file")
   println(new File("E:\\t.txt").readAll)
+  Conversion.go("dasdas1")
+  Conversion.go //隐式参数可以这样写
   Conversion.go2("xym","11")
   Conversion.go //饮食参数可以这样写
   Conversion.go2
